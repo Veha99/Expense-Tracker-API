@@ -11,20 +11,28 @@ This is an Expense Tracker API built with Node.js, Express, and MongoDB. It allo
 
 ## Installation
 
-1. Clone the repository:
-git clone https://github.com/Veha99/Expense-Tracker-API.git
-cd expense_tracker
+1. Clone the repository:  
+    ```bash
+    git clone https://github.com/Veha99/Expense-Tracker-API.git  
+    cd expense_tracker
+    ```
 
-2. Install the dependencies:
-npm install
+2. Install the dependencies:  
+    ```bash
+    npm install
+    ```
 
-3. Set up the environment variables:
-Create a .env file in the root directory and add the following variables:
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
+3. Set up the environment variables:  
+    Create a `.env` file in the root directory and add the following variables:  
+    ```env
+    MONGO_URI=your_mongodb_uri  
+    JWT_SECRET=your_jwt_secret
+    ```
 
-4. Start the server:
-npm start
+4. Start the server:  
+    ```bash
+    npm start
+    ```
 
 ## API Endpoints
 ### User Routes
